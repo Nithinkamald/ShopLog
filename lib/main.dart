@@ -10,9 +10,11 @@ void main() {
           ),
           backgroundColor: Colors.blue[900],
         ),
-        body: Image(
+        body: Center(
+          child: Image(
           image: AssetImage('images/coviscan.png'),
-        ),
+          ),
+        ) 
       )
     )
   );
